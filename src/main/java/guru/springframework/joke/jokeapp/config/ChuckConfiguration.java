@@ -3,10 +3,10 @@ package guru.springframework.joke.jokeapp.config;
 import guru.springframework.norris.chuck.*;
 import org.springframework.context.annotation.*;
 
-@Configuration
+//@Configuration
 public class ChuckConfiguration {
 
-    @Bean
+//    @Bean
     public ChuckNorrisQuotes chuckNorrisQuotes() {
         return new ChuckNorrisQuotes();
     }
